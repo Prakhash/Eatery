@@ -613,7 +613,6 @@ fried rice
 Frisbie pies
 fritters
 frogs & frog legs
-"from scratch"
 frosting & icing
 frosting mixes
 frozen pie crust
@@ -622,7 +621,6 @@ FRUIT
 fruit cake
 fruit cocktail
 fruit leather
-fruit or vegetable?
 fruit salad
 fruit soup
 Fruit Stripe gum
@@ -1131,7 +1129,7 @@ picnic ham
 picnics
 PIE
 pie crust
-"pie king"
+pie king
 pie plant
 pierogis
 pigeon
