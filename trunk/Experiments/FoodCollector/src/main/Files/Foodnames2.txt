@@ -6,9 +6,6 @@ agar agar
 aioli
 air ships & zeppelins
 airline chicken
-airline meals (inflight catering)
-Alabama state foods
-Alaska state foods
 algae
 Allemande sauce
 allspice
@@ -34,7 +31,8 @@ animal crackers
 Anne Frank
 ants on a log
 aoili
-apees (AP cookies)
+apees
+AP cookies
 appetizers
 apple butter
 apple crisp
@@ -44,10 +42,7 @@ apple sauce
 apple sauce cakes & cookies
 apple slump
 apples
-Apollo space mission foods
 apricots
-Arizona state foods
-Arkansas state foods
 Arthur Miller
 artichokes
 artisan breads
@@ -59,7 +54,6 @@ aspic
 astronaut fruitcake
 au gratin
 August Janssen
-Australian & New Zealand foods
 Augustus Jackson
 Aunt Sammy
 automats
@@ -68,7 +62,8 @@ avocados, mole & guacamole
 Aztec food
 BBQ
 BLTs
-baba (babka)
+baba
+babka
 Babe Ruth
 baby food
 bacon
@@ -103,7 +98,6 @@ bear
 bear's paw
 bearnaise sauce
 beaten biscuits
-Beatles (music group)
 bechamel
 beef
 beef fondue
@@ -119,7 +113,6 @@ beets
 beggar's chicken
 beignets
 Belgian waffles
-Benjamin Franklin
 benne seed wafers
 bergamot
 Beryl Markham
@@ -147,7 +140,8 @@ black cow
 Black Forest cake
 black pudding
 blackeyed peas.
-Blackout cake.... blancmange
+Blackout cake
+blancmange
 blondies
 blood as food
 blood oranges
@@ -241,7 +235,6 @@ cannoli
 Cape Breton pork pies
 capers
 cappuccino
-Captain Cook's ship food
 caramel cake
 caramel candy
 caramel creme
@@ -273,7 +266,8 @@ Charlotte Russe
 Chateaubriand
 chayote
 checkerboard cake
-cheese logs (aka cheese balls)
+cheese logs
+cheese balls
 cheese puffs
 cheese sauce
 cheese straws
@@ -298,16 +292,15 @@ chicken burgers
 chicken cacciatora
 chicken chasseur
 chicken Cordon Bleu
-chicken corn soup (PA Dutch)
+chicken corn soup
 chicken Francese
 chicken fried steak
-"chicken in every pot"
 chicken Kiev
 chicken Marengo
 chicken nuggets
 chicken Parm
 chicken salad
-chicken sandwiches (fast food)
+chicken sandwiches
 chicken tartare
 chicken Tetrazzini
 chicken tikka masala
@@ -328,7 +321,6 @@ Chinese chicken salad
 Chinese food
 Chinese New Year
 Chinese pie
-Chinese-USA restaurants
 Chippewa foodways
 Cho Cho ice cream bars
 CHOCOLATE
@@ -346,10 +338,11 @@ chocolate ice cream
 chocolate mayonnaise cake
 chocolate milk
 chocolate molten lava cake
-chocolate mousse (& white chocolate mousse)
+chocolate mousse
+white chocolate mousse
 chocolate pie
 chocolate pudding
-Chocolate Snaps (Nabisco)
+Chocolate Snaps
 chocolate truffles
 chocolate wine
 choko
@@ -393,7 +386,8 @@ coffee cake
 coffee houses
 coffee in America
 coffee substitutes
-cola cakes.... colcannon
+cola cakes
+colcannon
 cold shape
 cold soup
 coleslaw
@@ -410,17 +404,7 @@ comfort food
 confit
 concessions
 confetti
-Connecticut state foods
 consomme
-conversation hearts
-conversions (historic oven temps, weights & measures)
-cook book clubs
-COOK BOOKS
-COOKIES
-cookie exchanges
-cookie tables
-Cookery and Food Exhibition [London, 1885]
-cooking schools
 Copha
 Coq au vin
 coronation chicken
@@ -439,9 +423,6 @@ cornmeal mush
 costmary (alecost).
 cottage pie
 cotton candy
-country captain chicken
-course meals (why/when started)
-courses vs covers
 couscous
 cowboy cooking
 cowpeas
@@ -491,12 +472,10 @@ Dagwood sandwich
 dandelions
 Danish
 dates.
-Day of the Dead/Dia de los Muertos
 deep fried turkey
 deep frying
 Delaware state foods
 delicatessens
-Delmonico's menus, 1830s
 demi-glace
 Denver sandwiches
 Des Moines squash
@@ -504,10 +483,9 @@ dessert
 deviled eggs
 devils food
 devils on horseback
-Dick Gregory Dickens (Charles)
+Dick Gregory Dickens
 diet bread
 diet cookbooks
-dietary guidelines (history, USA)
 diet soda
 dill
 dill pickles
@@ -682,8 +660,6 @@ gingerbread
 gluten free foods
 gnocchi.
 goats
-gold & silver (edible)
-Golden Door (Idlewild restaurant)
 Gooey butter cake
 gooseberries
 goulash
@@ -736,7 +712,7 @@ high altitude cake mixes
 high fructose corn syrup
 high tea
 Hindenburg
-Hippodromes (cookies)
+Hippodromes
 hoagies
 hodge podge
 hoe cakes
@@ -762,8 +738,6 @@ hot dogs
 Hot-N-Tot sauce
 hot roast beef sandwiches
 hotcakes
-Howard Johnson's 28 flavors
-Huckleberry Finn's foods (Mark Twain)
 hummingbird cake
 hummus
 hundred year eggs
@@ -827,7 +801,8 @@ Joe Baum
 Joe Froggers
 John Burroughs
 John MacPherson
-johnny cakes (journey cakes)
+johnny cakes
+journey cakes
 Johnny Kan
 Johnny Marzetti
 joinville sauce
@@ -835,7 +810,7 @@ jordan almonds
 jujubes
 July 4th foods
 jumbles
-jus de veau li.....
+jus de veau li
 kaiser pudding
 Kansas state foods
 kebabs
@@ -870,24 +845,23 @@ Lane cake
 langues de chat
 lard
 lasagne
-lavash (Armenian flat bread)
+lavash
 lawn party menus
 leaf lard
 Lebanon balogna
-lefse (Norewegian flat bread)
+lefse
 leftovers
 lemon & egg sauce
 lemon bars
 lemon drops
 lemon meringue pie
-lemon slices in water?
+lemon slices in water
 lemonade
 lemons
 Lenne Lenape foodways
 lettuce.
 Lewis & Clark's provisions
 liberty tea
-libraries & museums (food history specialties)
 library wine
 limes
 Lindy's cheese cake
@@ -895,7 +869,8 @@ linzertortes
 liquamen & garum
 liquorice
 literature & food
-lobster fra diavolo (lobster l'americaine)
+lobster fra diavolo
+lobster l'americaine
 lobster newburg
 lobster rolls
 lobster thermidor
@@ -935,10 +910,8 @@ Margaritas
 marmalade
 Marquis de Sade
 marrow bones
-Marshmallow Sandwiches (Nabisco)
+Marshmallow Sandwiches
 marshmallows
-Mary Ann (bakeware & cakes)
-Maryland state foods
 marzipan
 mashed potatoes
 maslin
@@ -949,14 +922,11 @@ Maya foods
 mayonnaise
 mayonnaise cake
 meal times
-measures & weights (historic equivalencies)
 MEAT
 meatloaf 
 medieval fare
 melokhia
 melting moments
-menus (historic, digitized, collections)
-menus & bills of fare
 meringue
 mesclun
 Mesopotamia
@@ -968,7 +938,6 @@ Meyer lemons
 Michigan state foods
 microwave ovens
 mignardise
-military rations (USA)
 milk
 milk gravies
 milk shakes
@@ -994,7 +963,7 @@ monkey bread
 Monroe Boston Strause
 Montana state foods
 Monte Cristo sandwich
-moon cakes (Chinese)
+moon cakes
 Moravian sugar cakes
 mornay sauce
 mother sauces
@@ -1025,9 +994,7 @@ Nantua sauce
 Napoleon & Josephine
 napoleons
 Natchitoches meat pies
-national loaf (UK)
-national food days
-Native American foodways
+national loaf
 Navy bean soup
 Neapolitan ice cream
 Nebraska state foods
@@ -1038,7 +1005,6 @@ New Hampshire state foods
 New Jersey state foods
 New Mexico state foods
 new potatoes
-New World foods.... NEW YEAR
 New Year's cookies & cakes
 New York state foods
 no-bakes
@@ -1055,7 +1021,6 @@ Ohio state foods
 Ojibwe foodways
 Oklahoma state foods
 okra
-OLD WORLD
 Olio
 olive oil
 Olivenaise
@@ -1064,7 +1029,7 @@ omelettes
 1234 cake
 onion rings
 onions
-open sandwiches (Scandinavian-style)
+open sandwiches Scandinavian-style
 opera cake
 Opera fudge & Opera creams
 orange cauliflower
@@ -1072,13 +1037,15 @@ orange flower water
 orange juice
 oranges
 Oregon state foods
-Oreos (& vanilla Oreos)
+Oreos
+vanilla Oreos
 oriental noodle salad
 Osso buco
 ox eyes
 oyster crackers
 oyster ice cream
-oyster loaves (po'boy)
+oyster loaves
+po'boy
 oyster plant
 oyster stew
 oyster stuffing
@@ -1128,7 +1095,7 @@ pea soup
 peach pickles
 peaches
 peanut butter
-Peanut butter & banana sandwiches (Elvis!)
+Peanut butter & banana sandwiches
 peanut butter & jelly sandwiches
 peanut butter cookies
 pears
@@ -1146,7 +1113,7 @@ pepper pot
 peppercorns
 perfection salad
 periwinkles
-persians (doughnuts)
+persians doughnuts
 persimmons
 personal chefs & private cooks
 personal pies
@@ -1205,7 +1172,8 @@ pork & sauerkraut
 pork pie
 pork steaks
 Pork tenderloin sandwich
-portable soup (aka pocket soup)
+portable soup
+aka pocket soup
 portobello mushrooms
 posset
 pot luck
@@ -1226,7 +1194,6 @@ powdered milk
 pralines
 prawns
 preserves
-PRESIDENTIAL FOODS
 pretzel bread
 pretzels
 price-free menus
@@ -1261,17 +1228,9 @@ raisins
 ramen noodles
 ramps
 rappie pie
-rare, medium or done?
 ratafia
-rationing, WWII
 ravioli
-ready-to-spread frostings
-receipts vs recipes
-recipe names
-recipes (historic interpretation & adaption)
-recipes (oldest)
 red devil's food
-red eye
 red flame seedless grapes
 red velvet cake
 refried beans
@@ -1280,9 +1239,6 @@ refrigerator cake
 refrigerator pie
 releves & removes
 remoulade.
-RESTAURANTS & FOODSERVICE
-restaurant dining: men & women together
-restaurant menus
 Reuben sandwiches
 revolving restaurants
 rhubarb
@@ -1305,7 +1261,8 @@ romaine lettuce
 Roman Colosseum
 root beer
 roquefort cheese & salad dressing
-rosewater (rose flower water)
+rosewater
+rose flower water
 roti
 round sliced sandwich bread
 roux
@@ -1324,7 +1281,6 @@ rye & Indian bread
 rye bread
 Sabayon
 Sachertorte
-safe to eat?
 saffron
 sago
 SALAD.... salad bars
@@ -1378,7 +1334,7 @@ shark
 shark's fin
 she crab soup
 sheep
-shelf-life dating (freshness)
+shelf-life dating
 shepherd's pie
 sherbet
 ship's biscuit
@@ -1421,7 +1377,6 @@ souffle
 Soul Food
 SOUP
 soup mix
-soup or stew?
 sour cream
 sour milk
 sourdough
@@ -1429,7 +1384,7 @@ South Carolina state foods
 South Dakota state foods
 soy sauce
 SPACE FOOD
-Space Needle (restaurant, Seattle World's Fair 1963)
+Space Needle
 spaghetti & meatballs
 spaghetti carbonara
 SPAM
@@ -1438,7 +1393,8 @@ spelt
 spinach dip
 spiral ham
 spirulina
-split pea soup.... sponge cake
+split pea soup
+sponge cake
 sponge candy
 spoonbread
 spotted dick & spotted dog
@@ -1460,7 +1416,8 @@ stew or soup
 sticky buns
 stock, broth & bouillon
 stollen
-Stork Club (NYC) (cocktails)
+Stork Club
+cocktails
 stracciatelle
 streusel
 stromboli
@@ -1468,7 +1425,9 @@ strufoli
 stuffed dates
 stuffed pepppers
 stuffing & dressing
-submarine sandwiches (aka heros, hoagies, wedges, grinders &c.)
+submarine sandwiches
+hoagies
+wedges
 sugar
 sugar cookies
 sugarplums
@@ -1494,14 +1453,11 @@ Swiss steak
 switchel
 syllabub
 table d'hote
-table service (origins & evolution)
-tablet
 taco salad
 taco soup.
 tacos
 taffy & toffee
 tailgate parties
-take out, take away & take home
 tall food
 tamales & tamale pie
 tandoors
@@ -1518,21 +1474,17 @@ Taylor Pork Roll
 tea
 tea bags
 tea cakes
-tea time
-televisions & home dining
-televisions in restaurants
 tempura
 Tennessee state foods
 tequila
-teriyaki, sukiyaki & yakitori
+teriyaki
+sukiyaki
+yakitori
 Tetrazzini
 Tex-Mex
 Texas sheet cake
-Texas state foods
-Thai-USA restaurants
 Thanksgiving
 thirded bread
-Thomas Edison
 Thompson seedless grapes
 Thousand Island dressing
 thousand year eggs
@@ -1552,18 +1504,14 @@ tomato pie
 tomato sauce
 tomato soup cake
 tomato soy
-tomatoes
-Top of the Fair NYC World's Fair restaurant 1964-1965... tortes & torten
 tortilla soup
 tortillas
 tossed salad
 tourtiere
 tracklements
-Trader Vic's cocktails & books
 trail mix & gorp
 treacle
 trenchers
-Trick or treat (Halloween candy)
 trid
 trifle
 tri-tip steak
@@ -1582,23 +1530,18 @@ turnip greens
 turnovers
 turtle soup
 TV dinners
-Twelfth Night cakes (King cakes)
+Twelfth Night cakes
+King cakes
 Twinkies
 unsalted butter
 unturkey
 upside-down cake
-urban farming
-USA foods
-Utah state foods
-Valentine's Day candy & menus
 vanilla
 veal birds
 veal glue
 vegetable marrow
-vegetable or fruit?
 vegetable oyster
 vegetable shortening
-VEGETABLES
 Veloute
 vending machines
 venison
@@ -1609,11 +1552,11 @@ Vichyssoise
 Victorian English foods
 Victorian sandwich cakes
 Victorian tea time
-Vietnamese-USA restaurants
 Viking foods
 vinaigrette
 vinegar
-vinegar pie (& vinegar pie crust)
+vinegar pie
+vinegar pie crust
 Virginia state foods
 vodka sauce
 volcano cookies
@@ -1622,18 +1565,17 @@ waffles
 Walden saffron
 Waldorf salad
 Washington cake
-Washington state foods
 wassail
 water served before meals
 water cress
 Watergate salad & cake
 watermelons
 wedding cake
-weights & measures (historic equivalencies)
 Welch's grape juice
 Welsh rabbit
 West Virginia state foods
-western sandwiches (aka Denver sandwiches)
+western sandwiches
+Denver sandwiches
 wheat
 wheat meat
 white bread
@@ -1643,15 +1585,10 @@ wine
 wine bottles
 whole wheat bread
 Whoopie pies
-Windows on the World, World Trade Center, NYC
-Wisconsin state foods
 wok cookery
 won tons
 wooden salad bowls
 Worcestershire sauce
-World War II rationing
-World's Fair fare
-Wright brothers
 Wyoming state foods
 yakitori
 yams
@@ -1663,8 +1600,7 @@ Zabaglione
 zanzarelli
 zakuski
 zeppole
-zoo animals (1870 Paris)
-zucchini (aka vegetable marrow)
+zucchini
+vegetable marrow
 zucchini bread
 zweiback
-
