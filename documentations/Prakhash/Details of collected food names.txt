@@ -2,3 +2,4 @@
 http://www.oxfordreference.com/view/10.1093/acref/9780192803511.001.0001/acref-9780192803511 accessed on June, 4, 2015.
 [2] 1693 Food names were collected from foodtimeline
 http://www.foodtimeline.org/foodfaqindex.html accessed on June, 4, 2015.
+After doing manual filtering we got 1609 food names
