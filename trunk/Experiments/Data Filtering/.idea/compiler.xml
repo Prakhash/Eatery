@@ -25,5 +25,8 @@
         <module name="Data Filtering" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Data Filtering" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

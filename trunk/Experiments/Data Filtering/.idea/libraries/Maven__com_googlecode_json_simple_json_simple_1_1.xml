@@ -2,16 +2,6 @@
   <library name="Maven: com.googlecode.json-simple:json-simple:1.1">
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../Temp/httpcomponents-client-4.4.1/lib/commons-codec-1.9.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../Temp/httpcomponents-client-4.4.1/lib/commons-logging-1.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../Temp/httpcomponents-client-4.4.1/lib/fluent-hc-4.4.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../Temp/httpcomponents-client-4.4.1/lib/httpclient-4.4.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../Temp/httpcomponents-client-4.4.1/lib/httpclient-cache-4.4.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../Temp/httpcomponents-client-4.4.1/lib/httpclient-win-4.4.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../Temp/httpcomponents-client-4.4.1/lib/httpcore-4.4.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../Temp/httpcomponents-client-4.4.1/lib/httpmime-4.4.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../Temp/httpcomponents-client-4.4.1/lib/jna-4.1.0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../../../Temp/httpcomponents-client-4.4.1/lib/jna-platform-4.1.0.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1-javadoc.jar!/" />
