@@ -6,7 +6,10 @@ package com.eatery.filterData;
 public class Test {
     public static void main(String[] args)
     {
-        LanguageDetector languageDetector=new LanguageDetector();
-        languageDetector.isEnglish("book");
+//        LanguageDetector languageDetector=new LanguageDetector();
+//        languageDetector.isEnglish("book");
+
+        Response response=new Response();
+        response.getResponse();
     }
 }

@@ -10,6 +10,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.Random;
 
 /**
  * Created by bruntha on 5/27/15.
@@ -21,6 +22,7 @@ public class JsonReader {
             "yelp_academic_dataset_review_restaurants.json";
     final static String businessID = "A4q9jha6NNbbcuF5RFy7sg";
     static ArrayList<String> businessIDs = new ArrayList<>();
+    static ArrayList<Integer> randomNumber = new ArrayList<>();
 
 
     static int noOfRestaurants = 0;
@@ -39,7 +41,7 @@ public class JsonReader {
 
     public static void writePrintStream(String line) {
         PrintStream fileStream = null;
-        File file = new File("/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/.json");
+        File file = new File("/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/review_100_D.json");
 
         try {
             fileStream = new PrintStream(new FileOutputStream(file, true));
@@ -84,12 +86,18 @@ public class JsonReader {
         String line;
 
         int noOfLines = 0;
+        int written=0;
         while ((line = br.readLine()) != null) {
-            System.out.println(line);
+            noOfLines++;
+//            System.out.println(noOfLines+" "+line);
+            if (randomNumber.contains(noOfLines)) {
+                written++;
+                System.out.println(written + " " + line);
+                writePrintStream(line);
+            }
 //            getJSON(line);
-//            noOfLines++;
         }
-//        System.out.println("NoOfBussiness = " + noOfLines);
+        System.out.println("NoOfBussiness = " + noOfLines);
 //        System.out.println("NoOfRestaurants = "+noOfRestaurants);
 //        System.out.println(noOfRestaurantsReviews);
         br.close();
@@ -135,11 +143,13 @@ public class JsonReader {
     }
 
 
-
     public static void main(String[] args) {
 
         JsonReader jsonReader = new JsonReader();
         try {
+            for (int i = 0; i < 100; i++) {
+                randomNumber.add(generateRandomNumbers());
+            }
             jsonReader.readLinesUsingFileReader();
 //            jsonReader.extractRestaurantReviews("/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/yelp_academic_dataset_review.json");
 //            System.out.println("No Of Business IDS = " + businessIDs.size());
@@ -148,6 +158,11 @@ public class JsonReader {
             e.printStackTrace();
         }
 
+    }
+
+    public static int generateRandomNumbers() {
+        Random randomGenerator = new Random();
+        return randomGenerator.nextInt(990627);
     }
 
     public void getJSON() {

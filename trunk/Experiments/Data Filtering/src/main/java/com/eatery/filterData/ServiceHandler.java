@@ -44,6 +44,10 @@ public class ServiceHandler {    // to connect the local server
         return this.makeServiceCall(url, method, null);
     }
 
+    public HttpResponse makeServiceCallJSon(String url, int method) {
+        return this.makeServiceCallJson(url, method, null);
+    }
+
     /**
      * Making service call
      *
@@ -136,7 +140,6 @@ public class ServiceHandler {    // to connect the local server
                     url += "/" + paramString;
                 }
                 HttpGet httpGet = new HttpGet(url);
-                //httpGet.setHeader("Authorization", "Bearer ZDdmZTdmNWRjMjZmZmI0YTQwZWYxMzRiOTc0ZDE4ZDgyZWZiNmFhN2YxM2UzZjAyMWQ1NzM0NzI2ZDY2ZjA4NQ");
                 httpResponse = httpClient.execute(httpGet);
             } else if (method == PUT) {
                 // Log.d("HTTP PUT URL", url);

@@ -10,7 +10,7 @@ import java.io.*;
  */
 public class FilterEnglishReviews {
     final static String filePath = "/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/" +
-            "first_1000_english_reviews.json";
+            "yelp_academic_dataset_review_restaurants.json";
     static int count = 0;
     static int noOfNonEngRev = 0;
     static int noOfEngRev = 0;
@@ -20,7 +20,7 @@ public class FilterEnglishReviews {
 
         FilterEnglishReviews jsonReader = new FilterEnglishReviews();
         try {
-            jsonReader.readLinesUsingFileReaderAndPrintJSON();
+            jsonReader.readLinesUsingFileReader();
         } catch (IOException e) {
             e.printStackTrace();
         }
