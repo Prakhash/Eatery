@@ -4,6 +4,8 @@ import com.detectlanguage.errors.APIError;
 import org.json.simple.JSONObject;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.Random;
 
 /**
  * Created by bruntha on 6/4/15.
@@ -11,15 +13,23 @@ import java.io.*;
 public class FilterEnglishReviews {
     final static String filePath = "/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/" +
             "yelp_academic_dataset_review_restaurants.json";
+    final static String filePath2 = "/home/bruntha/Documents/FYP/Eatery/test/sample_reviews/" +
+                "review_100_D.json";
     static int count = 0;
     static int noOfNonEngRev = 0;
     static int noOfEngRev = 0;
     static int totalReviewsViewed = 0;
+    static ArrayList<Integer> randomNumber = new ArrayList<>();
 
     public static void main(String[] args) {
 
         FilterEnglishReviews jsonReader = new FilterEnglishReviews();
         try {
+
+            for (int i = 0; i < 100; i++) {
+                randomNumber.add(generateRandomNumbers());
+            }
+
             jsonReader.readLinesUsingFileReader();
         } catch (IOException e) {
             e.printStackTrace();
@@ -27,21 +37,43 @@ public class FilterEnglishReviews {
 
     }
 
+    public static int generateRandomNumbers() {
+        Random randomGenerator = new Random();
+        return randomGenerator.nextInt(990627);
+    }
+
     private static void readLinesUsingFileReader() throws IOException {
         File file = new File(filePath);
         FileReader fr = new FileReader(file);
         BufferedReader br = new BufferedReader(fr);
         String line;
+        int noOfReviews=0;
 
+        int noOfLines = 0;
+        int written=0;
         while ((line = br.readLine()) != null) {
-            if (noOfEngRev >= 1000) {
-                break;
-            } else {
-                getJSON(line);
-                totalReviewsViewed++;
+            noOfLines++;
+//            System.out.println(noOfLines+" "+line);
+            if (randomNumber.contains(noOfLines)) {
+                written++;
+                System.out.println(written + " " + line);
+                writePrintStream(line);
             }
+//            getJSON(line);
         }
-        System.out.println("Non english reviews = " + noOfNonEngRev);
+
+
+//        while ((line = br.readLine()) != null) {
+////            if (noOfEngRev >= 1000) {
+////                break;
+////            } else {
+////                getJSON(line);
+////                totalReviewsViewed++;
+////            }
+//            noOfReviews++;
+//            System.out.println(noOfReviews+" "+line);
+//        }
+//        System.out.println("Non english reviews = " + noOfNonEngRev);
         br.close();
         fr.close();
     }
@@ -63,7 +95,7 @@ public class FilterEnglishReviews {
 
     public static void writePrintStream(String line) {
         PrintStream fileStream = null;
-        File file = new File("/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/first_1000_english_reviews.json");
+        File file = new File("/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/review_100_C.json");
 
         try {
             fileStream = new PrintStream(new FileOutputStream(file, true));

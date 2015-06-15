@@ -20,12 +20,14 @@ public class JsonReader {
     final static Charset ENCODING = StandardCharsets.UTF_8;
     final static String filePath = "/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/" +
             "yelp_academic_dataset_review_restaurants.json";
+//    final static String filePath2 = "/home/bruntha/Documents/FYP/Eatery/test/sample_reviews/" +
+//            "review_100_D.json";
     final static String businessID = "A4q9jha6NNbbcuF5RFy7sg";
     static ArrayList<String> businessIDs = new ArrayList<>();
     static ArrayList<Integer> randomNumber = new ArrayList<>();
 
 
-    static int noOfRestaurants = 0;
+//    static int noOfRestaurants = 0;
     static int noOfRestaurantsReviews = 0;
 
     public void readLargerTextFileAlternate(String aFileName) throws IOException {
@@ -151,8 +153,6 @@ public class JsonReader {
                 randomNumber.add(generateRandomNumbers());
             }
             jsonReader.readLinesUsingFileReader();
-//            jsonReader.extractRestaurantReviews("/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/yelp_academic_dataset_review.json");
-//            System.out.println("No Of Business IDS = " + businessIDs.size());
 
         } catch (IOException e) {
             e.printStackTrace();
