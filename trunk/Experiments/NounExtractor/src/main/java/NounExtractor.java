@@ -17,7 +17,7 @@ import opennlp.tools.parser.ParserModel;
 //extract noun phrases from a single sentence using OpenNLP
 public class NounExtractor {
 
-    static String sentence = "Having just arrived to San Francisco we were looking for a quick meal in Chinatown. This place met our needs, as it had good food and decent prices. We got the orange chicken and beef with broccoli which were good but nothing noteworthy. The place fit the bill at the time but not a place I feel the need to revisit soon.";
+    static String sentence = "One reason people lie is to achieve personal power. Achieving personal power is helpful for someone who pretends to be more confident than he really is. For example, one of my friends threw a party at his house last month. He asked me to come to his party and bring a date. However, I didn’t have a girlfriend. One of my other friends, who had a date to go to the party with, asked me about my date. I didn’t want to be embarrassed, so I claimed that I had a lot of work to do. I said I could easily find a date even better than his if I wanted to. I also told him that his date was ugly. I achieved power to help me feel confident; however, I embarrassed my friend and his date. Although this lie helped me at the time, since then it has made me look down on myself.The offer was great to its place. the pizza was in its best.";
 
     static Set<String> nounPhrases = new HashSet<String>();
 
