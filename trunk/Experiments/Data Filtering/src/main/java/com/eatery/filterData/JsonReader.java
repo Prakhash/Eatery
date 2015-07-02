@@ -16,7 +16,7 @@ import java.util.Random;
  * Created by bruntha on 5/27/15.
  */
 
-public class JsonReader {
+public class -JsonReader {
     final static Charset ENCODING = StandardCharsets.UTF_8;
     final static String filePath = "/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/" +
             "yelp_academic_dataset_review_restaurants.json";
