@@ -9,9 +9,9 @@ import java.io.*;
  */
 public class SeparateReviews {
     final static String filePathRead = "/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/" +
-            "review_100_C.json";
+            "review_100_D.json";
     final static String filePathWrite = "/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/" +
-            "review_100_C_Review.txt";
+            "review_100_D_Review_test_nonewline.txt";
 
     public static void main(String[] args) {
 
@@ -67,7 +67,9 @@ public class SeparateReviews {
             JSONObject jsonObject = (JSONObject) obj;
 
             String review = (String) jsonObject.get("text");    // get review text from json
-            writePrintStream(review); //write review as json if it is english
+            String reviewWONewLine=review.replace("\n", "").replace("\r", "");
+            System.out.println("R   "+reviewWONewLine);
+            writePrintStream(reviewWONewLine); //write review as json if it is english
 
         } catch (org.json.simple.parser.ParseException e) {
             e.printStackTrace();
