@@ -7,12 +7,12 @@ import java.util.ArrayList;
  * Created by bruntha on 7/9/15.
  */
 public class Annotation {
-    final static String filePathRead = "/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/ann/" +
-            "test.txt";
-    final static String filePathAnnotation = "/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/ann/" +
-            "review_100_D_Review.ann";
-    final static String newFilePathAnnotation = "/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/ann/" +
-            "review_100_D_Review_New.ann";
+    final static String filePathToAnnotate = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
+            "review_100_D_Review.txt";
+    final static String filePathAnnotation = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
+            "review.ann";
+    final static String newFilePathAnnotation = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
+            "NewAnnotation.ann";
 
     static int test=0;
     static int tagCount=0;
@@ -36,16 +36,10 @@ public class Annotation {
 
         while ((line = br.readLine()) != null) {
             String[] annotations=line.split("[ \t]");
-//            System.out.println(annotations[0]+" "+annotations[1]+" "+annotations[2]);
-//            System.out.println(annotations[2]);
             if(!listOfItems.contains(annotations[4])){
                 annotate(annotations[1],annotations[4]);
                 listOfItems.add(annotations[4]);
             }
-
-
-
-
         }
         br.close();
         fr.close();
@@ -59,13 +53,8 @@ public class Annotation {
             System.out.println(listOfItems.get(i));
         }
     }
-
-//    private static void annotate(String tag, String item) {
-//
-//    }
-
     private static synchronized void annotate(String tag, String item) throws IOException {
-        File fileAnnotation = new File(filePathRead);
+        File fileAnnotation = new File(filePathToAnnotate);
         FileReader fr = new FileReader(fileAnnotation);
         BufferedReader br = new BufferedReader(fr);
         String line;

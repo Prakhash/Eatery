@@ -8,10 +8,10 @@ import java.io.*;
  * Created by bruntha on 7/9/15.
  */
 public class SeparateReviews {
-    final static String filePathRead = "/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/" +
-            "review_100_D.json";
-    final static String filePathWrite = "/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/" +
-            "review_100_D_Review_test_nonewline.txt";
+    final static String filePathRead = "/home/bruntha/Documents/FYP/Data/Samples/" +
+            "review_100_C.json";
+    final static String filePathWrite = "/home/bruntha/Documents/FYP/Data/Samples/" +
+            "review_100_C_Review.txt";
 
     public static void main(String[] args) {
 
