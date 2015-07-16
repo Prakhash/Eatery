@@ -656,7 +656,6 @@ FRUIT
 fruit cake
 fruit cocktail
 fruit leather
-fruit or vegetable?
 fruit salad
 fruit soup
 Fruit Stripe gum
@@ -904,7 +903,6 @@ lemon & egg sauce
 lemon bars
 lemon drops
 lemon meringue pie
-lemon slices in water?
 lemonade
 lemons
 Lenne Lenape foodways
@@ -1285,7 +1283,6 @@ raisins
 ramen noodles
 ramps
 rappie pie
-rare, medium or done?
 ratafia
 rationing, WWII
 ravioli
@@ -1348,7 +1345,6 @@ rye & Indian bread
 rye bread
 Sabayon
 Sachertorte
-safe to eat?
 saffron
 sago
 SALAD.... salad bars
@@ -1445,7 +1441,7 @@ souffle
 Soul Food
 SOUP
 soup mix
-soup or stew?
+soup or stew
 sour cream
 sour milk
 sourdough
@@ -1619,7 +1615,6 @@ vanilla
 veal birds
 veal glue
 vegetable marrow
-vegetable or fruit?
 vegetable oyster
 vegetable shortening
 VEGETABLES
