@@ -39,8 +39,8 @@
       <file leaf-file-name="FinalFoodnames.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/Files/FinalFoodnames.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7265625" vertical-offset="198861" max-vertical-offset="199245">
-              <caret line="13276" column="6" selection-start-line="13276" selection-start-column="6" selection-end-line="13276" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.078125" vertical-offset="0" max-vertical-offset="199230">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,7 +49,7 @@
       <file leaf-file-name="foodnamelarge.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Files/foodnamelarge.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.740741" vertical-offset="73132" max-vertical-offset="154650">
+            <state vertical-scroll-proportion="-2713.3333" vertical-offset="0" max-vertical-offset="154650">
               <caret line="4884" column="8" selection-start-line="4884" selection-start-column="7" selection-end-line="4884" selection-end-column="8" />
               <folding />
             </state>
@@ -518,12 +518,12 @@
       <updated>1437102042664</updated>
       <workItem from="1437102045460" duration="216000" />
       <workItem from="1437103332877" duration="689000" />
-      <workItem from="1437110912065" duration="1252000" />
+      <workItem from="1437110912065" duration="2436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2157000" />
+    <option name="totallyTimeSpent" value="3341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -647,14 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Files/foodnamelarge.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.740741" vertical-offset="73132" max-vertical-offset="154650">
-          <caret line="4884" column="8" selection-start-line="4884" selection-start-column="7" selection-end-line="4884" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Files/Foodnames1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.740741" vertical-offset="33892" max-vertical-offset="37890">
@@ -671,10 +663,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Files/foodnamelarge.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2713.3333" vertical-offset="0" max-vertical-offset="154650">
+          <caret line="4884" column="8" selection-start-line="4884" selection-start-column="7" selection-end-line="4884" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Files/FinalFoodnames.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7265625" vertical-offset="198861" max-vertical-offset="199245">
-          <caret line="13276" column="6" selection-start-line="13276" selection-start-column="6" selection-end-line="13276" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.078125" vertical-offset="0" max-vertical-offset="199230">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>

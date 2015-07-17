@@ -10,6 +10,7 @@ import java.util.regex.Pattern;
  * Created by bruntha on 7/9/15.
  */
 public class Annotation {
+
     final String filePathToAnnotate = "/home/prakhash/Documents/brat-v1.3_Crunchy_Frog/data/Reviews/" +
             "review_100_A_Review.txt";  //the file path that need to be annotated
     final String filePathToAlreadyAnnotated = "/home/prakhash/Documents/brat-v1.3_Crunchy_Frog/data/Reviews/" +
@@ -39,6 +40,8 @@ public class Annotation {
         annotation.annotateFoodNames();
 
     }
+
+
 
     private synchronized void readFileForAnnotation() throws IOException {
         File fileAnnotation = new File(filePathDictionary);
@@ -173,7 +176,7 @@ public class Annotation {
             String[] annotations = line.split("[ \t]");
 //            if(!listOfItems.contains(annotations[4])){
             taggedItems.put(annotations[2] + "-" + annotations[3], annotations[1]);
-            noOfTagsAlready++;
+            noOfTagsAlready=Integer.parseInt(annotations[0].substring(1));
 //                listOfItems.add(annotations[4]);
 //            }
         }
@@ -245,5 +248,56 @@ public class Annotation {
 
 
     }
+
+//    public void removeLineFromFile(String file, String lineToRemove) {
+//
+//        try {
+//
+//            File inFile = new File(file);
+//
+//            if (!inFile.isFile()) {
+//                System.out.println("Parameter is not an existing file");
+//                return;
+//            }
+//
+//            //Construct the new file that will later be renamed to the original filename.
+//            File tempFile = new File(inFile.getAbsolutePath() + ".tmp");
+//
+//            BufferedReader br = new BufferedReader(new FileReader(file));
+//            PrintWriter pw = new PrintWriter(new FileWriter(tempFile));
+//
+//            String line = null;
+//
+//            //Read from the original file and write to the new
+//            //unless content matches data to be removed.
+//            while ((line = br.readLine()) != null) {
+//
+//                if (!line.trim().substring(0,4).equals("T"+lineToRemove)) {
+//                    System.out.println("found");
+//                    pw.println(line);
+//                    pw.flush();
+//                }
+//            }
+//            pw.close();
+//            br.close();
+//
+//            //Delete the original file
+//            if (!inFile.delete()) {
+//                System.out.println("Could not delete file");
+//                return;
+//            }
+//
+//            //Rename the new file to the filename the original file had.
+//            if (!tempFile.renameTo(inFile))
+//                System.out.println("Could not rename file");
+//
+//        }
+//        catch (FileNotFoundException ex) {
+//            ex.printStackTrace();
+//        }
+//        catch (IOException ex) {
+//            ex.printStackTrace();
+//        }
+//    }
 
 }
