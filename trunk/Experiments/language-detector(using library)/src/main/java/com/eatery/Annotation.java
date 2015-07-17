@@ -10,17 +10,17 @@ import java.util.regex.Pattern;
  * Created by bruntha on 7/9/15.
  */
 public class Annotation {
-    final String filePathToAnnotate = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
-            "review_100_D_Review.txt";  //the file path that need to be annotated
-    final String filePathToAlreadyAnnotated = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
-            "review_100_D_Review.ann";  //annotation of the file that need to be annotated
-    final String filePathAnnotation = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
-            "manual.ann";
-    final String filePathFoodNames = "/home/bruntha/Documents/FYP/Eatery/documentations/Prakhash/" +
-            "Foodnames1.txt";
-    final String newFilePathAnnotation = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
-            "review_100_D_Review.ann";
-    final String filePathDictionary = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
+    final String filePathToAnnotate = "/home/prakhash/Documents/brat-v1.3_Crunchy_Frog/data/Reviews/" +
+            "review_100_A_Review.txt";  //the file path that need to be annotated
+    final String filePathToAlreadyAnnotated = "/home/prakhash/Documents/brat-v1.3_Crunchy_Frog/data/Reviews/" +
+            "review_100_A_Review.ann";  //annotation of the file that need to be annotated
+    final String filePathAnnotation = "/home/prakhash/Documents/brat-v1.3_Crunchy_Frog/data/Reviews/" +
+            "review.ann";
+    final String filePathFoodNames = "/home/prakhash//FYP/Eatery/trunk/Experiments/FoodCollector/src/main/Files/" +
+            "FinalFoodnames.txt";
+    final String newFilePathAnnotation = "/home/prakhash/Documents/brat-v1.3_Crunchy_Frog/data/Reviews/" +
+            "review_100_A_Review.ann";
+    final String filePathDictionary = "/home/prakhash/Documents/Tags/" +
             "dictionary.txt";
 
 
@@ -34,7 +34,9 @@ public class Annotation {
     public static void main(String[] args) {
 
         Annotation annotation = new Annotation();
+        annotation.updateDictionary();
         annotation.annotate();
+        annotation.annotateFoodNames();
 
     }
 

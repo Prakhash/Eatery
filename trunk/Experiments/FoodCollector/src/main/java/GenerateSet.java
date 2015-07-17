@@ -7,7 +7,6 @@ import java.util.TreeSet;
 /**
  * Created by prakhash on 6/4/15.
  */
-
 public class GenerateSet {
 
     BufferedReader br = null;
@@ -16,17 +15,12 @@ public class GenerateSet {
 
     public void ReadFiles() {
         try {
-
             String sCurrentLine;
-
-            String[] filepaths = new String[]{"src/main/Files/Foodnames1.txt", "src/main/Files/Foodnames2.txt"};
+            String[] filepaths = new String[]{"src/main/Files/Foodnames1.txt", "src/main/Files/Foodnames2.txt","src/main/Files/foodnamelarge.txt"};
 
             foodnames = new TreeSet<String>();
-
             for (int i = 0; i < filepaths.length; i++) {
-
                 br = new BufferedReader(new FileReader(filepaths[i]));
-
                 while ((sCurrentLine = br.readLine()) != null) {
                     foodnames.add(sCurrentLine);
                 }
