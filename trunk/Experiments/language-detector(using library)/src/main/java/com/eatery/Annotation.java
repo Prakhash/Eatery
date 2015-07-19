@@ -11,23 +11,24 @@ import java.util.regex.Pattern;
  */
 public class Annotation {
 
-    final String filePathToAnnotate = "/home/prakhash/Documents/brat-v1.3_Crunchy_Frog/data/Reviews/" +
-            "review_100_A_Review.txt";  //the file path that need to be annotated
-    final String filePathToAlreadyAnnotated = "/home/prakhash/Documents/brat-v1.3_Crunchy_Frog/data/Reviews/" +
-            "review_100_A_Review.ann";  //annotation of the file that need to be annotated
-    final String filePathAnnotation = "/home/prakhash/Documents/brat-v1.3_Crunchy_Frog/data/Reviews/" +
+    final String filePathToAnnotate = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
+            "review.txt";  //the file path that need to be annotated
+    final String filePathToAlreadyAnnotated = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
+            "review.ann";  //annotation of the file that need to be annotated
+    final String filePathAnnotation = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
             "review.ann";
-    final String filePathFoodNames = "/home/prakhash//FYP/Eatery/trunk/Experiments/FoodCollector/src/main/Files/" +
+    final String filePathFoodNames = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
             "FinalFoodnames.txt";
-    final String newFilePathAnnotation = "/home/prakhash/Documents/brat-v1.3_Crunchy_Frog/data/Reviews/" +
-            "review_100_A_Review.ann";
-    final String filePathDictionary = "/home/prakhash/Documents/Tags/" +
+    final String newFilePathAnnotation = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
+            "review.ann";
+    final String filePathDictionary = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
             "dictionary.txt";
 
 
     int test = 0;
     int tagCount = 0;
     int noOfTagsAlready = 0;
+    int noOfTagsAlreadyMax = 0;
     ArrayList<String> listOfItems = new ArrayList<>();
     Hashtable<String, String> taggedItems = new Hashtable<>();
     Hashtable<String, String> dictionaryHashtable = new Hashtable<>(); //<key=word,value=tag>
@@ -35,12 +36,9 @@ public class Annotation {
     public static void main(String[] args) {
 
         Annotation annotation = new Annotation();
-        annotation.updateDictionary();
         annotation.annotate();
-        annotation.annotateFoodNames();
 
     }
-
 
 
     private synchronized void readFileForAnnotation() throws IOException {
@@ -52,7 +50,7 @@ public class Annotation {
         while ((line = br.readLine()) != null) {
             String[] annotations = line.split("[ \t]");
             String word=line.substring(line.indexOf(" ")+1);
-            annotate(annotations[0], word);
+            annotate(annotations[0], word.toLowerCase());
         }
         br.close();
         fr.close();
@@ -129,7 +127,7 @@ public class Annotation {
     public void annotate() {
         try {
             loadTags();
-            tagCount = noOfTagsAlready;
+            tagCount = noOfTagsAlreadyMax;
             readFileForAnnotation();
         } catch (IOException e) {
             e.printStackTrace();
@@ -139,7 +137,7 @@ public class Annotation {
     public void annotateFoodNames() {
         try {
             loadTags();
-            tagCount = noOfTagsAlready;
+            tagCount = noOfTagsAlreadyMax;
             tagFoodNames();
         } catch (IOException e) {
             e.printStackTrace();
@@ -175,8 +173,26 @@ public class Annotation {
         while ((line = br.readLine()) != null) {
             String[] annotations = line.split("[ \t]");
 //            if(!listOfItems.contains(annotations[4])){
-            taggedItems.put(annotations[2] + "-" + annotations[3], annotations[1]);
+            String word=line.substring(line.lastIndexOf('\t')+1);
+            String[] words=word.split(" ");
+
+            int start=Integer.parseInt(annotations[2]);
+            if (words.length == 0) {
+                taggedItems.put(annotations[2] + "-" + annotations[3], annotations[1]);
+
+            }else {
+                for (int i = 0; i < words.length; i++) {
+//                    words[i]=words[i].trim();
+                    int end= start+words[i].length();
+//                    System.out.println(start+" "+words[i].length()+" "+end+"#"+words[i]+"#");
+                    taggedItems.put(start + "-" + end, annotations[1]);
+                    start=end+1;
+                }
+
+            }
             noOfTagsAlready=Integer.parseInt(annotations[0].substring(1));
+            if(noOfTagsAlreadyMax < noOfTagsAlready)
+                noOfTagsAlreadyMax=noOfTagsAlready;
 //                listOfItems.add(annotations[4]);
 //            }
         }
@@ -193,14 +209,16 @@ public class Annotation {
         int indexTotal = 0;
 
         while ((line = br.readLine()) != null) {
+            System.out.println(line);
             Pattern pattern = Pattern.compile("\\b(" + item + ")\\b");
-            Matcher matcher = pattern.matcher(line);
+            Matcher matcher = pattern.matcher(line.toLowerCase());
             while (matcher.find()) {
 
                 int currentIndex = matcher.start();
-                String newAnnotation = "T" + ++tagCount + "\t" + tag + " " + (currentIndex + indexTotal) + " " + (currentIndex + indexTotal + item.length()) + "\t" + item;
-                System.out.println(newAnnotation);
-                if (!alreadyAnnotated((currentIndex + indexTotal) + "-" + (currentIndex + indexTotal + item.length()), tag, item)) {
+
+                if (!alreadyAnnotated((currentIndex + indexTotal) + "-" + (currentIndex + indexTotal + item.length()), tag, line.substring(currentIndex, matcher.end()))) {
+                    String newAnnotation = "T" + ++tagCount + "\t" + tag + " " + (currentIndex + indexTotal) + " " + (currentIndex + indexTotal + item.length()) + "\t" + line.substring(currentIndex, matcher.end());
+                    System.out.println(newAnnotation);
                     writePrintStream(newAnnotation);
                 }
 //                currentIndex=line.indexOf(item,currentIndex+1);
