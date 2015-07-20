@@ -18,7 +18,7 @@ public class Annotation {
     final String filePathAnnotation = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
             "review.ann";
     final String filePathFoodNames = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
-            "FinalFoodnames.txt";
+            "food.txt";
     final String newFilePathAnnotation = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
             "review.ann";
     final String filePathDictionary = "/home/bruntha/Documents/Softwares/brat-v1.3_Crunchy_Frog/data/Eatery/" +
@@ -37,7 +37,7 @@ public class Annotation {
 
         Annotation annotation = new Annotation();
         annotation.annotate();
-
+//annotation.annotateFoodNames();
     }
 
 
@@ -49,7 +49,7 @@ public class Annotation {
 
         while ((line = br.readLine()) != null) {
             String[] annotations = line.split("[ \t]");
-            String word=line.substring(line.indexOf(" ")+1);
+            String word = line.substring(line.indexOf(" ") + 1);
             annotate(annotations[0], word.toLowerCase());
         }
         br.close();
@@ -79,9 +79,9 @@ public class Annotation {
 
         while ((line = br.readLine()) != null) {
             String[] dic = line.split("[ \t]");
-            String word=line.substring(line.indexOf(" ")+1);
+            String word = line.substring(line.indexOf(" ") + 1);
             dictionaryHashtable.put(word, dic[0]);
-            System.out.println("Loading dictionary : Word: "+word+"\tTag: "+dic[0] );
+            System.out.println("Loading dictionary : Word: " + word + "\tTag: " + dic[0]);
         }
         br.close();
         fr.close();
@@ -104,7 +104,7 @@ public class Annotation {
             } else {
                 dictionaryHashtable.put(word, annotations[1]);
                 System.out.println("Updating Dictionary : Word: " + word + "\tTag: " + annotations[1]);
-                addToDictionary(annotations[1],word);
+                addToDictionary(annotations[1], word);
             }
 
         }
@@ -173,26 +173,24 @@ public class Annotation {
         while ((line = br.readLine()) != null) {
             String[] annotations = line.split("[ \t]");
 //            if(!listOfItems.contains(annotations[4])){
-            String word=line.substring(line.lastIndexOf('\t')+1);
-            String[] words=word.split(" ");
+            String word = line.substring(line.lastIndexOf('\t') + 1);
+            String[] words = word.split(" ");
 
-            int start=Integer.parseInt(annotations[2]);
-            if (words.length == 0) {
-                taggedItems.put(annotations[2] + "-" + annotations[3], annotations[1]);
-
-            }else {
+            int start = Integer.parseInt(annotations[2]);
+            if (words.length != 0) {
                 for (int i = 0; i < words.length; i++) {
 //                    words[i]=words[i].trim();
-                    int end= start+words[i].length();
+                    int end = start + words[i].length();
 //                    System.out.println(start+" "+words[i].length()+" "+end+"#"+words[i]+"#");
                     taggedItems.put(start + "-" + end, annotations[1]);
-                    start=end+1;
+                    start = end + 1;
                 }
-
             }
-            noOfTagsAlready=Integer.parseInt(annotations[0].substring(1));
-            if(noOfTagsAlreadyMax < noOfTagsAlready)
-                noOfTagsAlreadyMax=noOfTagsAlready;
+            taggedItems.put(annotations[2] + "-" + annotations[3], annotations[1]);
+
+            noOfTagsAlready = Integer.parseInt(annotations[0].substring(1));
+            if (noOfTagsAlreadyMax < noOfTagsAlready)
+                noOfTagsAlreadyMax = noOfTagsAlready;
 //                listOfItems.add(annotations[4]);
 //            }
         }
@@ -209,7 +207,7 @@ public class Annotation {
         int indexTotal = 0;
 
         while ((line = br.readLine()) != null) {
-            System.out.println(line);
+//            System.out.println(line);
             Pattern pattern = Pattern.compile("\\b(" + item + ")\\b");
             Matcher matcher = pattern.matcher(line.toLowerCase());
             while (matcher.find()) {

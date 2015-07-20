@@ -3,13 +3,14 @@ package com.eatery;
 import org.json.simple.JSONObject;
 
 import java.io.*;
+import java.util.ArrayList;
 
 /**
  * Created by bruntha on 6/4/15.
  */
 public class FilterEnglishReviews {
-    final static String filePathRead = "/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/" +
-            "review_400.json";
+    final static String filePathRead = "/home/bruntha/Documents/FYP/Data/English/" +
+            "filteredEnglishReviews.json";
     final static String filePathWrite = "/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/" +
             "test.json";
     final static String filePathWriteIndex = "/home/bruntha/Documents/FYP/Data/yelp_dataset_challenge_academic_dataset/" +
@@ -18,6 +19,7 @@ public class FilterEnglishReviews {
     static int noOfNonEngRev = 0;
     static int noOfEngRev = 0;
     static int totalReviewsViewed = 0;
+    static ArrayList<String> reviewIDS =new ArrayList<>();
 
     static LanguageDetect languageDetect = new LanguageDetect();
 
@@ -25,7 +27,8 @@ public class FilterEnglishReviews {
 
         FilterEnglishReviews filterEnglishReviews = new FilterEnglishReviews();
         try {
-            filterEnglishReviews.readLinesUsingFileReader(1,3); //reading json line one by one
+//            filterEnglishReviews.readLinesUsingFileReader(1,3); //reading json line one by one
+            count();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -47,6 +50,21 @@ public class FilterEnglishReviews {
 
             if(endPosition==totalReviewsViewed)
                 break;
+        }
+        System.out.println("English reviews = " + noOfEngRev);
+        br.close();
+        fr.close();
+    }
+
+    private static synchronized void count() throws IOException {
+        File file = new File(filePathRead);
+        FileReader fr = new FileReader(file);
+        BufferedReader br = new BufferedReader(fr);
+        String line;
+
+        while ((line = br.readLine()) != null) {
+//            System.out.println(line);
+                splitJsonCount(line);    //splitting each json into ...
         }
         System.out.println("English reviews = " + noOfEngRev);
         br.close();
@@ -120,6 +138,33 @@ public class FilterEnglishReviews {
             if (isEnglish) {
                 writePrintStream(json); //write review as json if it is english
             }
+
+        } catch (org.json.simple.parser.ParseException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void splitJsonCount(String json) {
+        org.json.simple.parser.JSONParser parser = new org.json.simple.parser.JSONParser();
+
+//        System.out.println(json);
+        try {
+
+            Object obj = parser.parse(json);
+
+            JSONObject jsonObject = (JSONObject) obj;
+
+//            String review = (String) jsonObject.get("text");    // get review text from json
+            String reviewID= (String) jsonObject.get("review_id");
+
+            if (reviewIDS.contains(reviewID)) {
+                System.out.println("COME OVER   "+reviewID);
+            }else {
+                noOfEngRev++;
+                reviewIDS.add(reviewID);
+            }
+
+            System.out.println(noOfEngRev);
 
         } catch (org.json.simple.parser.ParseException e) {
             e.printStackTrace();
