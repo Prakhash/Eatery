@@ -26,12 +26,8 @@ public class FilterEnglishReviews {
     public static void main(String[] args) {
 
         FilterEnglishReviews filterEnglishReviews = new FilterEnglishReviews();
-        try {
-//            filterEnglishReviews.readLinesUsingFileReader(1,3); //reading json line one by one
-            count();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        //            filterEnglishReviews.readLinesUsingFileReader(1,3); //reading json line one by one
+        getKeyJson("{\"batchcomplete\":\"\",\"query\":{\"normalized\":[{\"from\":\"bread\",\"to\":\"Bread\"}],\"pages\":{\"36969\":{\"pageid\":36969,\"ns\":0,\"title\":\"Bread\",\"revisions\":[{\"contentformat\":\"text/x-wiki\",\"contentmodel\":\"wikitext\",\"*\":\"{{About||the American rock band|Bread (band)|other uses}}\\n{{pp-move-indef}}\\n{{Multiple issues|\\n{{refimprove|date=June 2015}}\\n{{original research|date=February 2015}}\\n}}\\n\\n{{Use dmy dates|date=March 2015}}\\n{{Infobox prepared food\\n| name             = Bread\\n| image            = [[File:Korb mit Br\\u00f6tchen.JPG|250px]]\\n| caption          = Various leavened breads\\n| alternate_name   = \\n| country          = \\n| region           = \\n| creator          = \\n| course           = \\n| served           = \\n| main_ingredient  = [[Flour]], [[water]]\\n| variations       = \\n| calories         = \\n| other            = \\n}}\\n\\n'''Bread''' is a [[staple food]] prepared from a [[dough]] of [[flour]] and [[water]], usually by [[baking]]. Throughout recorded history it has been popular around the world and is one of the oldest artificial foods, having been of importance since the dawn of [[Agriculture#History|agriculture]].\\n\\nThere are many combinations and proportions of types of flour and other ingredients, and also of different traditional recipes and modes of preparation of bread. As a result, there are wide varieties of types, shapes, sizes, and textures of breads in various regions.  Bread may be [[leaven]]ed by many different processes ranging from the use of naturally occurring microbes (for example in [[sourdough]] recipes) to high-pressure artificial aeration methods during preparation or baking. However, some products are left unleavened, either for preference, or for traditional or religious reasons. Many non-cereal ingredients may be included, ranging from fruits and nuts to various fats. Commercial bread in particular, commonly contains additives, some of them non-nutritional, to improve flavor, texture, color, shelf life, or ease of manufacturing.\\n\\nDepending on local custom and convenience, bread may be served in various forms at any meal of the day. It also is eaten as a snack, or used as an ingredient in other culinary preparations, such as fried items coated in crumbs to prevent sticking, or the bland main component of a [[bread pudding]], or [[stuffing]]s designed to fill cavities or retain juices that otherwise might drip away.\\n\\nPartly because of its importance as a basic foodstuff, bread has a social and emotional significance beyond its importance in nutrition; it plays essential roles in religious rituals and secular culture. Its prominence in daily life is reflected in language, where it appears in proverbs, colloquial expressions (\\\"He stole the bread from my mouth\\\"), in prayer (\\\"Give us this day our daily bread\\\") and even in the etymology of words, such as \\\"[[Wiktionary:companion|companion]]\\\" and \\\"[[Wiktionary:company|company]]\\\" (literally those who eat/share bread with you).\"}]}}}}");
 
     }
 
@@ -154,6 +150,8 @@ public class FilterEnglishReviews {
 
             JSONObject jsonObject = (JSONObject) obj;
 
+            System.out.println(((JSONObject) obj).keySet());
+
 //            String review = (String) jsonObject.get("text");    // get review text from json
             String reviewID= (String) jsonObject.get("review_id");
 
@@ -165,6 +163,38 @@ public class FilterEnglishReviews {
             }
 
             System.out.println(noOfEngRev);
+
+        } catch (org.json.simple.parser.ParseException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void getKeyJson(String json) {
+        org.json.simple.parser.JSONParser parser = new org.json.simple.parser.JSONParser();
+
+//        System.out.println(json);
+        try {
+
+            Object obj = parser.parse(json);
+
+            JSONObject jsonObject = (JSONObject) obj;
+
+            JSONObject query= (JSONObject) jsonObject.get("query");
+            Object pages=query.get("pages");
+
+            System.out.println(((JSONObject) pages).keySet());
+
+//            String review = (String) jsonObject.get("text");    // get review text from json
+//            String reviewID= (String) jsonObject.get("review_id");
+//
+//            if (reviewIDS.contains(reviewID)) {
+//                System.out.println("COME OVER   "+reviewID);
+//            }else {
+//                noOfEngRev++;
+//                reviewIDS.add(reviewID);
+//            }
+//
+//            System.out.println(noOfEngRev);
 
         } catch (org.json.simple.parser.ParseException e) {
             e.printStackTrace();
