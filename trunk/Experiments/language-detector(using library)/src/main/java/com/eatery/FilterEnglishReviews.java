@@ -121,7 +121,7 @@ public class FilterEnglishReviews {
 
     public static void splitJson(String json) {
         org.json.simple.parser.JSONParser parser = new org.json.simple.parser.JSONParser();
-
+        boolean isEnglish=false;
         try {
 
             Object obj = parser.parse(json);
@@ -129,7 +129,14 @@ public class FilterEnglishReviews {
             JSONObject jsonObject = (JSONObject) obj;
 
             String review = (String) jsonObject.get("text");    // get review text from json
-            boolean isEnglish = languageDetect.isEnglish(review); //checking whether review is english or not
+            Pattern pattern=Pattern.compile("[a-zA-Z]");
+            Matcher matcher = pattern.matcher(review);
+//            if(review.equals("..") ||review.equals("...") ||review.equals(".") || review.length()==1 ||( review.length()==2 && review.indexOf(':')==0)){
+            if(!matcher.find()) {
+                isEnglish=false;
+            }else {
+                isEnglish = languageDetect.isEnglish(review); //checking whether review is english or not
+            }
             System.out.println("Review " + (totalReviewsViewed + 1) + " is English = " + isEnglish);
             if (isEnglish) {
                 writePrintStream(json); //write review as json if it is english
