@@ -1,4 +1,5 @@
 from __builtin__ import list
+from bdb import foo
 
 __author__ = 'prakhash'
 
@@ -82,18 +83,46 @@ def readData():
 
     sql = "SELECT * FROM myviewname5"
     list = []
+    f=open("foodnamelarge.txt",'w')
     try:
         cursor.execute(sql)
         results = cursor.fetchall()
         for row in results:
             food_name = row[0]
-            if(food_name!=""):
-                list.append(food_name)
+            f.write(food_name+"\n")
+            list.append(food_name)
     except:
         print("error")
 
     db.close()
+    f.close()
     return list
+
+def writeData():
+    db = MySQLdb.connect("localhost", "root", "", "Foodcollection")
+    cursor = db.cursor()
+
+    list = []
+    f=open("Data",'r+')
+
+
+    for line in f:
+        list.append(line.split("\n")[0])
+
+    try:
+        for line in list:
+            print(line)
+            cursor.execute('INSERT INTO final_food_names(names) VALUES("%s")' %(line))
+            db.commit()
+    except:
+        # Rollback in case there is any error
+         db.rollback()
+
+    db.close()
+    f.close()
+
+
+
 
 
 def CompareList(list, links):
@@ -110,7 +139,6 @@ links = ["http://www.foodtimeline.org/foodfaqindex.html"]
 
 print("Execution started")
 list = readData()
-print(len(list))
-#checkInAddressOne(links,list)
+writeData()
 print("Finished")
 

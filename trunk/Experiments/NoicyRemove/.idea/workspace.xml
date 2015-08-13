@@ -14,8 +14,11 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/NoicyRemove$RemoveNoicy.coverage" NAME="RemoveNoicy Coverage Results" MODIFIED="1437040489106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NoicyRemove$RemoveNoicy.coverage" NAME="RemoveNoicy Coverage Results" MODIFIED="1437981544108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NoicyRemove$Test.coverage" NAME="Test Coverage Results" MODIFIED="1436494644340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NoicyRemove$CatagariesOptimized.coverage" NAME="CatagariesOptimized Coverage Results" MODIFIED="1438944633562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NoicyRemove$CatagariesFood.coverage" NAME="CatagariesFood Coverage Results" MODIFIED="1438909603947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NoicyRemove$GettingAbstract.coverage" NAME="GettingAbstract Coverage Results" MODIFIED="1438944239521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -23,21 +26,125 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="NoicyRemove" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RemoveNoicy.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RemoveNoicy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RemoveNoicy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.3893805" vertical-offset="0" max-vertical-offset="1830">
-              <caret line="90" column="16" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="2250">
+              <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
               <folding>
-                <marker date="1437040486952" expanded="true" signature="2612:2626" placeholder="SELECT * FRO..food_names..." />
-                <marker date="1437040486952" expanded="true" signature="2612:2637" placeholder="SELECT * FRO..myviewname5..." />
+                <element signature="e#0#28#0" expanded="true" />
+                <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+                <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+                <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+                <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+                <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CatagariesFood.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CatagariesFood.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2685" max-vertical-offset="3045">
+              <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+              <folding>
+                <marker date="1438909593606" expanded="true" signature="329:359" placeholder="SELECT * FRO..final_food_names..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CatagariesOptimized.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CatagariesOptimized.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="387" max-vertical-offset="2865">
+              <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+              <folding>
+                <element signature="e#25#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FinalNames.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FinalNames.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="134104" max-vertical-offset="134730">
+              <caret line="8976" column="0" selection-start-line="8976" selection-start-column="0" selection-end-line="8976" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Foods.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Foods.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="56254" max-vertical-offset="58320">
+              <caret line="3763" column="14" selection-start-line="3763" selection-start-column="14" selection-end-line="3763" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Appetizer.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Appetizer.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2257525" vertical-offset="0" max-vertical-offset="3780">
+              <caret line="9" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GettingAbstract.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GettingAbstract.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1035">
+              <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FinalNames1.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FinalNames1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="131055" max-vertical-offset="131160">
+              <caret line="8737" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="8738" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Beverage.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Beverage.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="27045" max-vertical-offset="27150">
+              <caret line="1803" column="11" selection-start-line="1803" selection-start-column="11" selection-end-line="1803" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Other.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Other.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="122310" max-vertical-offset="134565">
+              <caret line="8154" column="14" selection-start-line="8154" selection-start-column="14" selection-end-line="8154" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,7 +155,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Test.py" />
+        <option value="$PROJECT_DIR$/foodnamelarge.txt" />
         <option value="$PROJECT_DIR$/RemoveNoicy.py" />
+        <option value="$PROJECT_DIR$/output1.txt" />
+        <option value="$PROJECT_DIR$/CategarizedFoods.txt" />
+        <option value="$PROJECT_DIR$/CatagariesFood.py" />
+        <option value="$PROJECT_DIR$/backup.txt" />
+        <option value="$PROJECT_DIR$/Beverage.txt" />
+        <option value="$PROJECT_DIR$/Appetizer.txt" />
+        <option value="$USER_HOME$/FYP/Eatery/trunk/Experiments/FoodCollector/src/main/Files/FinalFoodnames.txt" />
+        <option value="$PROJECT_DIR$/Foods.txt" />
+        <option value="$PROJECT_DIR$/GettingAbstract.py" />
+        <option value="$PROJECT_DIR$/CatagariesOptimized.py" />
+        <option value="$PROJECT_DIR$/FinalNames.txt" />
+        <option value="$PROJECT_DIR$/Other.txt" />
       </list>
     </option>
   </component>
@@ -126,17 +246,23 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="configurable.group.tools" />
+    <property name="options.lastSelected" value="preferences.lookFeel" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/FYP/Eatery/trunk/Experiments/FoodCollector/src/main/Files/FinalFoodnames.txt" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.RemoveNoicy">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.CatagariesOptimized">
     <configuration default="false" name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,6 +277,50 @@
       <module name="NoicyRemove" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CatagariesFood" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NoicyRemove" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CatagariesFood.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonCover" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonCover" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CatagariesOptimized" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NoicyRemove" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CatagariesOptimized.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -345,6 +515,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="GettingAbstract" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="NoicyRemove" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GettingAbstract.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="false" name="RemoveNoicy" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -367,13 +559,18 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.RemoveNoicy" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Test" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.GettingAbstract" />
+      <item index="1" class="java.lang.String" itemvalue="Python.RemoveNoicy" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.CatagariesFood" />
+      <item index="4" class="java.lang.String" itemvalue="Python.CatagariesOptimized" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.Test" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.CatagariesOptimized" />
+        <item index="1" class="java.lang.String" itemvalue="Python.CatagariesFood" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -395,25 +592,25 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22637014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.116071425" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24596465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39880952" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4274809" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886904" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3984733" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -434,18 +631,244 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CatagariesFood.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1438909593606" expanded="true" signature="329:359" placeholder="SELECT * FRO..final_food_names..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="142410" max-vertical-offset="199230">
+          <caret line="9494" column="12" selection-start-line="9494" selection-start-column="12" selection-end-line="9494" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodnamelarge.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="154545" max-vertical-offset="154650">
+          <caret line="10303" column="6" selection-start-line="10303" selection-start-column="6" selection-end-line="10303" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoveNoicy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="302" max-vertical-offset="2250">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CatagariesFood.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1438909593606" expanded="true" signature="329:359" placeholder="SELECT * FRO..final_food_names..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="142410" max-vertical-offset="199230">
+          <caret line="9494" column="12" selection-start-line="9494" selection-start-column="12" selection-end-line="9494" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodnamelarge.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="154545" max-vertical-offset="154650">
+          <caret line="10303" column="6" selection-start-line="10303" selection-start-column="6" selection-end-line="10303" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoveNoicy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="302" max-vertical-offset="2250">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CatagariesFood.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="780">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+          <folding>
+            <marker date="1438909593606" expanded="true" signature="329:359" placeholder="SELECT * FRO..final_food_names..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="142410" max-vertical-offset="199230">
+          <caret line="9494" column="12" selection-start-line="9494" selection-start-column="12" selection-end-line="9494" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoveNoicy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="302" max-vertical-offset="2250">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CatagariesFood.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="765">
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+          <folding>
+            <marker date="1438909593606" expanded="true" signature="329:359" placeholder="SELECT * FRO..final_food_names..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="142410" max-vertical-offset="199230">
+          <caret line="9494" column="12" selection-start-line="9494" selection-start-column="12" selection-end-line="9494" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoveNoicy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2250">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="142410" max-vertical-offset="199230">
+          <caret line="9494" column="12" selection-start-line="9494" selection-start-column="12" selection-end-line="9494" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodnamelarge.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="154545" max-vertical-offset="154650">
+          <caret line="10303" column="6" selection-start-line="10303" selection-start-column="6" selection-end-line="10303" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoveNoicy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1395" max-vertical-offset="2250">
+          <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodnamelarge.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="154545" max-vertical-offset="154650">
+          <caret line="10303" column="6" selection-start-line="10303" selection-start-column="6" selection-end-line="10303" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoveNoicy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1127" max-vertical-offset="1860">
+          <caret line="91" column="33" selection-start-line="91" selection-start-column="33" selection-end-line="91" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodnamelarge.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoveNoicy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1830">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RemoveNoicy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1815">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1437040486952" expanded="true" signature="2612:2626" placeholder="SELECT * FRO..food_names..." />
-            <marker date="1437040486952" expanded="true" signature="2612:2637" placeholder="SELECT * FRO..myviewname5..." />
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -455,8 +878,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1437040486952" expanded="true" signature="2612:2626" placeholder="SELECT * FRO..food_names..." />
-            <marker date="1437040486952" expanded="true" signature="2612:2637" placeholder="SELECT * FRO..myviewname5..." />
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -466,8 +893,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1437040486952" expanded="true" signature="2612:2626" placeholder="SELECT * FRO..food_names..." />
-            <marker date="1437040486952" expanded="true" signature="2612:2637" placeholder="SELECT * FRO..myviewname5..." />
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -477,8 +908,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1365">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1437040486952" expanded="true" signature="2612:2626" placeholder="SELECT * FRO..food_names..." />
-            <marker date="1437040486952" expanded="true" signature="2612:2637" placeholder="SELECT * FRO..myviewname5..." />
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -488,8 +923,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1395">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1437040486952" expanded="true" signature="2612:2626" placeholder="SELECT * FRO..food_names..." />
-            <marker date="1437040486952" expanded="true" signature="2612:2637" placeholder="SELECT * FRO..myviewname5..." />
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -499,8 +938,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1380">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1437040486952" expanded="true" signature="2612:2626" placeholder="SELECT * FRO..food_names..." />
-            <marker date="1437040486952" expanded="true" signature="2612:2637" placeholder="SELECT * FRO..myviewname5..." />
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -510,8 +953,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1380">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1437040486952" expanded="true" signature="2612:2626" placeholder="SELECT * FRO..food_names..." />
-            <marker date="1437040486952" expanded="true" signature="2612:2637" placeholder="SELECT * FRO..myviewname5..." />
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -521,8 +968,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1437040486952" expanded="true" signature="2612:2626" placeholder="SELECT * FRO..food_names..." />
-            <marker date="1437040486952" expanded="true" signature="2612:2637" placeholder="SELECT * FRO..myviewname5..." />
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -532,8 +983,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1437040486952" expanded="true" signature="2612:2626" placeholder="SELECT * FRO..food_names..." />
-            <marker date="1437040486952" expanded="true" signature="2612:2637" placeholder="SELECT * FRO..myviewname5..." />
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -543,8 +998,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1437040486952" expanded="true" signature="2612:2626" placeholder="SELECT * FRO..food_names..." />
-            <marker date="1437040486952" expanded="true" signature="2612:2637" placeholder="SELECT * FRO..myviewname5..." />
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -554,20 +1013,164 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1437040486952" expanded="true" signature="2612:2626" placeholder="SELECT * FRO..food_names..." />
-            <marker date="1437040486952" expanded="true" signature="2612:2637" placeholder="SELECT * FRO..myviewname5..." />
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="141870" max-vertical-offset="199230">
+          <caret line="9494" column="12" selection-start-line="9494" selection-start-column="12" selection-end-line="9494" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/dist-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33194155" vertical-offset="651" max-vertical-offset="1890">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CategarizedFoods.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.031914894" vertical-offset="0" max-vertical-offset="470">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodnamelarge.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="23220" max-vertical-offset="154650">
+          <caret line="1548" column="12" selection-start-line="1548" selection-start-column="12" selection-end-line="1548" selection-end-column="12" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26223776" vertical-offset="0" max-vertical-offset="286">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backup.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9137931" vertical-offset="198822" max-vertical-offset="199230">
+          <caret line="13276" column="0" selection-start-line="13276" selection-start-column="0" selection-end-line="13276" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RemoveNoicy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.3893805" vertical-offset="0" max-vertical-offset="1830">
-          <caret line="90" column="16" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="2250">
+          <caret line="81" column="24" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="24" />
           <folding>
-            <marker date="1437040486952" expanded="true" signature="2612:2626" placeholder="SELECT * FRO..food_names..." />
-            <marker date="1437040486952" expanded="true" signature="2612:2637" placeholder="SELECT * FRO..myviewname5..." />
+            <element signature="e#0#28#0" expanded="true" />
+            <marker date="1437377760214" expanded="true" signature="2632:2646" placeholder="SELECT * FRO..food_names..." />
+            <marker date="1437377760214" expanded="true" signature="2632:2657" placeholder="SELECT * FRO..myviewname5..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3336" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3341" placeholder="INSERT INTO ..." />
+            <marker date="1437377760214" expanded="true" signature="3293:3351" placeholder="INSERT INTO ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm40/system/python_stubs/-1247972723/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="349" max-vertical-offset="77220">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/FYP/Eatery/trunk/Experiments/FoodCollector/src/main/Files/FinalFoodnames.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65229887" vertical-offset="9557" max-vertical-offset="163290">
+          <caret line="622" column="8" selection-start-line="622" selection-start-column="8" selection-end-line="622" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CatagariesFood.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2685" max-vertical-offset="3045">
+          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding>
+            <marker date="1438909593606" expanded="true" signature="329:359" placeholder="SELECT * FRO..final_food_names..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GettingAbstract.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Beverage.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="27045" max-vertical-offset="27150">
+          <caret line="1803" column="11" selection-start-line="1803" selection-start-column="11" selection-end-line="1803" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalNames1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="130812" max-vertical-offset="131160">
+          <caret line="8737" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="8738" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Other.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="122310" max-vertical-offset="134565">
+          <caret line="8154" column="14" selection-start-line="8154" selection-start-column="14" selection-end-line="8154" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CatagariesOptimized.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="387" max-vertical-offset="2865">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding>
+            <element signature="e#25#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalNames.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="134104" max-vertical-offset="134730">
+          <caret line="8976" column="0" selection-start-line="8976" selection-start-column="0" selection-end-line="8976" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Foods.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="56254" max-vertical-offset="58320">
+          <caret line="3763" column="14" selection-start-line="3763" selection-start-column="14" selection-end-line="3763" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Appetizer.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2257525" vertical-offset="0" max-vertical-offset="3780">
+          <caret line="9" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="246" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
